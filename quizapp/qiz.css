@@ -1,0 +1,43 @@
+body{
+background-color: antiquewhite;
+margin: 0;
+display: flex;
+justify-content: center;
+
+align-items: center;
+height: 100vh;
+
+}
+ #contaner{
+    background-color:rgb(172, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+box-shadow: 0 0 10px  black;
+text-align: center;
+}
+#quiz-contaner{
+    margin-bottom: 10px;
+}
+
+#options-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+button{
+    background-color: rgb(255, 149, 92);
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+border-radius: 8px;
+}
+:hover #submitBit{
+    box-shadow: 0 0 6px black;
+color:black
+}
+#score{
+    font-weight: bold;
+    color: red;
+}
